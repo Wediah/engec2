@@ -33,13 +33,10 @@ export default function Home() {
               <li className='px-4 py-2 hover:text-orange-500 ml-8'>
                 <a href="#">Contact us</a>
               </li>
-              <li >
-                <BsFillMoonStarsFill className=' mr-8 cursor-pointer text-2xl'></BsFillMoonStarsFill>
-              </li>
             </ul>
           </nav>
         </section>
-        <section className="first min-h-screen">
+        <section className="first min-h-screen bg-black">
 
           <div className='text-left px-10 pt-80'>
             <div className="opacity-20">
@@ -159,7 +156,7 @@ export default function Home() {
         </section>
 
         <section className='bg-white'>
-        <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Projects</h3>
+        <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 '>Projects</h3>
 
         <div className='flex flex-row overflow-x-auto pt-20 h-120 overflow-y-hidden text-left px-10'>
           <div className=" rounded shadow-2xl px-5">
@@ -314,18 +311,63 @@ export default function Home() {
         </div>
         </section>
 
-        <section>
-           <div className="opacity-20">
-              <Image
-              src="/Eastern5.jpg"
-              alt="Legon House"
-              width={100}
-              height={100}
-              />
-            </div>
+        <section className="bg-white">
+          <div className="w-100 h-50">
+            <Image 
+            src="/Eastern5.jpg"
+            width={6000}
+            height={300}
+            />
+          </div>
+          
+          <div className='px-10'>
+            <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-5 text-left '>Our Story</h3>
+              <h1 className='text-sm text-bold  text-black pt-5 '>Vision.Build.Live</h1> <br />
+              <h1 className='text-5xl text-bold text-black'>SPECIALIZING IN THE UNTHINKABLE.</h1>
+          </div>
             
-            <h1 className='text-sm text-bold'>Vision.Build.Live</h1> <br />
-            <h1 className='text-5xl text-bold'>SPECIALIZING IN THE UNTHINKABLE.</h1>
+          
+          <span className="text-md flex text-gray-600 text-center leading-8 px-10 pt-5">
+          ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
+          Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
+          </span>
+          
+            
+        </section>
+
+        <section className="px-10 pt-40 ">
+          <span className="font-bold text-5xl flex text-center">Lets Get Started With Your Dream Project Now.</span>
+
+          <div className='flex flex-row pt-40 gap-10'>
+            <div className="bg-white rounded p-10 w-3/5">
+            <span className="text-3xl font-bold text-orange-500">Contact Us</span> <br />
+              <span className="text-orange-500 pt-10 "> 
+              
+                0555071746, 0503456240, 
+                0265918210, 0543387574<br/>
+                kwabenakwakye@engec.com<br/>
+                No.41 Gye Nyame Street, Taifa Accra- Ghana <br />
+                 House No.4 Digital Address: GE-288-1184
+              </span>
+            </div>
+
+            <div className='bg-orange-500 rounded p-10 w-3/5'>
+              <span className="text-3xl font-bold">Pitch Us</span> <br />
+              <span>
+                hello, <br/>
+                my name is..... and my email address is.... and I would like to discuss about.....<br/>
+                <div className='pt-5'>
+                <a href="mailto:groupengec@gmail.com"><button className='bg-white text-black text-sm font-bold w-20 h-7 rounded '>Send</button></a>
+                </div>
+                
+              </span>
+            </div>
+
+          </div>
+          
+          
+                    
+            
         </section>
         
         
