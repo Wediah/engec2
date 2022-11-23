@@ -229,7 +229,7 @@ export default function Home() {
             <div className='w-80 pt-20'>
             <Image 
             src="/bHills.jpg"
-            alt="Home at Bonianor Hills"
+            alt="Home at Bortianor Hills"
             width={500}
             height={600}
             />
