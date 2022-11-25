@@ -2,6 +2,14 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import Image from 'next/image'
 import Script from 'next/script'
+import React from 'react'
+import Popup from 'reactjs-popup'
+import 'reactjs-popup/dist/index.css'
+import Popup1 from '../components/Popup1'
+import Popup2 from '../components/Popup2'
+import Popup3 from '../components/Popup3'
+import Popup4 from '../components/Popup4'
+
 
 
 
@@ -18,17 +26,20 @@ export default function Home() {
       <main className='font-burtons'>
         <section>
           <nav className='py-10 z-10 fixed top-0  mb-12 flex justify-between bg-white text-black w-full'>
-          <div className='px-4 py-2 font-burtons cursor-pointer flex justify-between '>
-            <span><Image 
-            src="/Layer 23.png"
-            alt="logo"
-            width={50}
-            height={50}
-            /></span>
-            <h1 className='font-bold text-2xl ml-2'>ENGEC</h1>
+          <div className='px-4 py-2 flex justify-between '>
+            <span className="cursor-pointer">
+              <Image 
+                src="/Layer 23.png"
+                alt="logo"
+                width={50}
+                height={50}
+              />
+            </span>
+            <h1 className='font-bold text-2xl ml-2 '>ENGEC</h1>
+            
           
 
-            <span className='text-3xl  md:hidden block '>
+            <span className='text-3xl  md:hidden block'>
               <Image 
               src="/menu-outline.svg"
               alt="menu"
@@ -194,7 +205,9 @@ export default function Home() {
               5 Bedroom House at Dobro Eastern Region for Mr. Koduah. <br />
               Scope: Design & Build 
             </span> <br />
-            <button className="text-white bg-orange-500 p-3 rounded">View more</button>
+            <Popup1 />
+            
+
           </div>
           <div className="rounded shadow-2xl px-5 hover:transition-transform hover:scale-110 duration-500">
             <div className='w-80 pt-10'>
@@ -269,7 +282,8 @@ export default function Home() {
             Vacation Home at Aburi. <br />
             Scope: Design & Build
             </span> <br />
-            <button className="text-white bg-orange-500 p-3 rounded">View more</button>
+            <Popup2 />
+            
           </div>
           <div className="rounded shadow-2xl px-5 hover:transition-transform hover:scale-110 duration-500">
             <div className='w-80 pt-20'>
@@ -315,7 +329,8 @@ export default function Home() {
             3 Bedroom House at Dodowa.<br />
             Scope: Design & Build.
             </span> <br />
-            <button className="text-white bg-orange-500 p-3 rounded">View more</button>
+            <Popup3 />
+
 
           </div>
           <div className="rounded shadow-2xl px-5 hover:transition-transform hover:scale-110 duration-500">
@@ -332,7 +347,7 @@ export default function Home() {
             5 Bedroom House at Akuapem- Mampong. <br /> 
             Scope: Design.
             </span> 
-            <button className="text-white bg-orange-500 p-3 rounded ">View more</button>
+            <Popup4 />
           </div>
         </div>
         </section>
