@@ -9,6 +9,7 @@ import Popup1 from '../components/Popup1'
 import Popup2 from '../components/Popup2'
 import Popup3 from '../components/Popup3'
 import Popup4 from '../components/Popup4'
+import { AiFillHeart } from 'react-icons/ai'
 
 
 
@@ -369,7 +370,7 @@ export default function Home() {
           </div>
             
           
-          <span className="text-md flex text-gray-600 text-center leading-8 px-10 pt-5">
+          <span className="text-md flex text-gray-600 text-center leading-8 px-10 pt-5 pb-10">
           ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
           Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
           </span>
@@ -407,7 +408,8 @@ export default function Home() {
 
           </div>
           
-          
+          <span className="text-white text-sm">COPYRIGHT © 2022  ENGEC ALL RIGHTS RESERVED</span>
+          <a  className="text-white text-sm float-right flex " href="https://wediah.github.io/portifolio-website/">Made with <AiFillHeart className='text-xl text-red-700'/> by Emmanuel wediah</a> 
                     
             
         </section>
