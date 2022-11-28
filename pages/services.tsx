@@ -2,13 +2,15 @@ import Image from 'next/image'
 import React from 'react'
 import 'reactjs-popup/dist/index.css'
 import { Element } from 'react-scroll'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from 'react-responsive-carousel'
 
 function Services () {
     return (
         <Element id="services" name="services">
             <section className='bg-white'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Services We Offer;</h3>
-          <div className='flex flex-row overflow-x-auto pt-20 h-80 overflow-y-hidden text-left px-10'>
+          <div className='flex flex-row  pt-20 h-80 overflow-y-hidden text-left px-10'>
             <div className='px-5 hover:transition-transform  hover:scale-110 duration-500'>
               
                 <Image 

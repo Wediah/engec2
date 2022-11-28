@@ -1,11 +1,15 @@
 import Image from 'next/image'
-import React from 'react'
+import React, {Component} from 'react'
+import ReactDom from 'react-dom'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from 'react-responsive-carousel'
 import 'reactjs-popup/dist/index.css'
 import Popup1 from '../components/Popup1'
 import Popup2 from '../components/Popup2'
 import Popup3 from '../components/Popup3'
 import Popup4 from '../components/Popup4'
 import { Element } from 'react-scroll'
+
 
 
 function Projects () {
