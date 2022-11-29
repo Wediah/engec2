@@ -29,8 +29,8 @@ function Contact () {
                 <GrLocationPin className='text-xl text-black  mr-1'/>House No.4 Digital Address: GE-288-1184 <br />
                 <span className='text-3xl flex '>
                 <AiFillLinkedin className=" hover:text-orange-300" />
-                <AiFillInstagram className=" hover:text-orange-300" />
-                <AiFillFacebook className=" hover:text-orange-300"  />
+                <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:text-orange-300" /></a>
+                <a href='https://www.facebook.com/profile.php?id=100084279907473&mibextid=ZbWKwL'><AiFillFacebook className=" hover:text-orange-300"  /></a>
                 <AiFillTwitterSquare className=" hover:text-orange-300" />
                 </span>
                 
