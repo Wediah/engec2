@@ -10,96 +10,96 @@ function Services () {
         <Element id="services" name="services">
             <section className='bg-white'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Services We Offer;</h3>
-          <div className='flex flex-row  pt-20 h-80 overflow-y-hidden text-left px-10'>
-            <div className='px-5 hover:transition-transform  hover:scale-110 duration-500'>
+          <div className='flex flex-wrap  pt-20 text-left px-10'>
+            <div className='px-5 hover:transition-transform  hover:scale-110 duration-500 p-5'>
               
                 <Image 
                     src="/project-manager-icon.png" alt="project management"
-                    width={180}
-                    height={150}
+                    width={170}
+                    height={140}
                 />
                <span className='text-md text-black flex'>
                  Project Management
                 </span>
               
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/hook.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="Building"
               />
               <span className='text-md text-black flex'>Design & Build</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/blueprint.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="plan"
               />
               <span className='text-md text-black flex'>Architecture</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/bridge.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="bridge"
               />
               <span className='text-md text-black flex'>Structural Engineering</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/electrical.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="electrical"
               />
               <span className='text-md text-black flex'>Electrical Engineering</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/pipes.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="plumbing"
               />
               <span className='text-md text-black flex'>Plumbing Services</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image 
               src="/urban-planning.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="planning"
               />
               <span className='text-md text-black flex'>Urban Planning</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/pressure.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="pressure"
               />
               <span className='text-md text-black flex'>Hydraulic Modelling</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image 
               src="/tower.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="power"
               />
               <span className='text-md text-black flex'>Power Grid Substation Design</span>
             </div>
-            <div className='px-5 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/treatment.png"
-              width={180}
-              height={150}
+              width={170}
+              height={140}
               alt="water treatment plant"
               />
               <span className='text-md text-black flex'>Water Treatment Plant Design</span>
