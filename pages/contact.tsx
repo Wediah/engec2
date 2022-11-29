@@ -1,10 +1,14 @@
 import React from 'react'
 import 'reactjs-popup/dist/index.css'
-import { AiFillHeart } from 'react-icons/ai'
+import { AiFillHeart, AiFillTwitterCircle } from 'react-icons/ai'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { GoLocation } from 'react-icons/go'
 import { GrLocationPin } from 'react-icons/gr'
 import { AiOutlineMail } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillInstagram } from 'react-icons/ai'
+import { AiFillFacebook } from 'react-icons/ai'
+import { AiFillTwitterSquare } from 'react-icons/ai'
 import { Element } from 'react-scroll'
 
 function Contact () {
@@ -20,9 +24,16 @@ function Contact () {
               
                 <BsFillTelephoneFill className='text-xl text-black mr-1'/>0555071746, 0503456240, 
                 0265918210, 0543387574<br/>
-                <AiOutlineMail className='text-xl text-black mr-1'/>kwabenakwakye@engec.com<br/>
+                <AiOutlineMail className='text-xl text-black mr-1'/>groupengec@gmail.com<br/>
                 <GoLocation className='text-xl text-black mr-1'/>No.41 Gye Nyame Street, Taifa Accra- Ghana <br />
-                <GrLocationPin className='text-xl text-black  mr-1'/>House No.4 Digital Address: GE-288-1184
+                <GrLocationPin className='text-xl text-black  mr-1'/>House No.4 Digital Address: GE-288-1184 <br />
+                <span className='text-3xl flex '>
+                <AiFillLinkedin className=" hover:text-orange-300" />
+                <AiFillInstagram className=" hover:text-orange-300" />
+                <AiFillFacebook className=" hover:text-orange-300"  />
+                <AiFillTwitterSquare className=" hover:text-orange-300" />
+                </span>
+                
               </span>
             </div>
 
