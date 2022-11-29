@@ -6,7 +6,7 @@ import Image from 'next/image'
 function About () {
     return (
         <Element id="about" name="about">
-            <section className="bg-white">
+            <section className="bg-white w-100">
                 <div className="w-100 h-25">
                     <Image 
                         src="/Eastern5.jpg"

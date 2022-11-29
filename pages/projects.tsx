@@ -15,7 +15,7 @@ import { Element } from 'react-scroll'
 function Projects () {
     return (
         <Element id="projects" name="projects">
-        <section className='bg-white pt-10'>
+        <section className='bg-white w-100 pt-10'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 '>Projects</h3>
 
           

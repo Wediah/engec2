@@ -8,7 +8,7 @@ import { Carousel } from 'react-responsive-carousel'
 function Services () {
     return (
         <Element id="services" name="services">
-            <section className='bg-white'>
+            <section className='bg-white w-100'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Services We Offer;</h3>
           <div className='flex flex-wrap  pt-20 text-left px-10'>
             <div className='px-5 hover:transition-transform  hover:scale-110 duration-500 p-5'>

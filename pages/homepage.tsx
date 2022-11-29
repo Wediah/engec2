@@ -10,7 +10,7 @@ function Homepage () {
             <section className="min-h-screen bg-black">
 
                 <div className='text-left px-10 pt-80'>
-                    <div className="opacity-20">
+                    <div className="opacity-20 w-100">
                         <Image
                             src="/LegonE.jpg"
                             alt="Legon House"
