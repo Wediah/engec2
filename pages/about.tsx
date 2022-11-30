@@ -16,7 +16,7 @@ function About () {
                 </div>
                     
                 
-                <span className="text-md flex text-black text-center leading-8 px-10 pt-5 pb-10">
+                <span className="text-md flex font-bold text-black text-center leading-8 px-10 pt-5 pb-10">
                 ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
                 Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
                 </span>
