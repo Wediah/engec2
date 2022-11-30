@@ -39,11 +39,14 @@ function Contact () {
 
             <div className='bg-orange-500 rounded p-10 w-5/5 mb-8'>
               <span className="text-3xl font-bold">Pitch Us</span> <br />
-              <span className='pt-10'>
+              <span>
+                <span className='flex pt-10'>
                 hello, <br/>
-                my name is..... and my email address is.... and I would like to discuss about.....<br/>
-                <div className='pt-5'>
-                <a href="mailto:groupengec@gmail.com"><button className='bg-white text-black text-sm font-bold w-20 h-7 rounded '>Send</button></a>
+                my name is.............. and my email address is......... and I would like to discuss about............<br/>
+                </span>
+                
+                <div className='pt-10'>
+                <a href="mailto:groupengec@gmail.com"><button className='bg-white text-black text-sm font-bold w-20 h-7 rounded '>Mail us</button></a>
                 </div>
                 
               </span>
