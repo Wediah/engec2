@@ -8,17 +8,17 @@ import { Carousel } from 'react-responsive-carousel'
 function Services () {
     return (
         <Element id="services" name="services">
-            <section className='bg-white w-100'>
+            <section className='bg-white w-auto'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Services We Offer;</h3>
           <div className='flex flex-wrap  pt-20 text-left px-10'>
             <div className='px-5 hover:transition-transform  hover:scale-110 duration-500 p-5'>
               
                 <Image 
                     src="/project-manager-icon.png" alt="project management"
-                    width={170}
-                    height={140}
+                    width={160}
+                    height={130}
                 />
-               <span className='text-md text-black flex'>
+               <span className='text-md font-bold flex text-orange-500'>
                  Project Management
                 </span>
               
@@ -26,83 +26,83 @@ function Services () {
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/hook.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="Building"
               />
-              <span className='text-md text-black flex'>Design & Build</span>
+              <span className='text-md text-orange-500 font-bold flex '>Design & Build</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/blueprint.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="plan"
               />
-              <span className='text-md text-black flex'>Architecture</span>
+              <span className='text-md text-orange-500 font-bold flex'>Architecture</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/bridge.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="bridge"
               />
-              <span className='text-md text-black flex'>Structural Engineering</span>
+              <span className='text-md text-orange-500 font-bold flex'>Structural Engineering</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/electrical.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="electrical"
               />
-              <span className='text-md text-black flex'>Electrical Engineering</span>
+              <span className='text-md text-orange-500 font-bold flex'>Electrical Engineering</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/pipes.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="plumbing"
               />
-              <span className='text-md text-black flex'>Plumbing Services</span>
+              <span className='text-md text-orange-500 font-bold flex'>Plumbing Services</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image 
               src="/urban-planning.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="planning"
               />
-              <span className='text-md text-black flex'>Urban Planning</span>
+              <span className='text-md text-orange-500 font-bold flex'>Urban Planning</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/pressure.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="pressure"
               />
-              <span className='text-md text-black flex'>Hydraulic Modelling</span>
+              <span className='text-md text-orange-500 font-bold flex'>Hydraulic Modelling</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image 
               src="/tower.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="power"
               />
-              <span className='text-md text-black flex'>Power Grid Substation Design</span>
+              <span className='text-md text-orange-500 font-bold flex'>Power Grid Substation Design</span>
             </div>
             <div className='px-5 hover:transition-transform hover:scale-110 duration-500 p-5'>
               <Image
               src="/treatment.png"
-              width={170}
-              height={140}
+              width={160}
+              height={130}
               alt="water treatment plant"
               />
-              <span className='text-md text-black flex'>Water Treatment Plant Design</span>
+              <span className='text-md text-orange-500 font-bold flex'>Water Treatment Plant Design</span>
             </div>
           </div>
           <span className='text-md text-gray-800 flex pt-8 text-center px-10 font-bold leading-8'>
