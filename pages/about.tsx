@@ -6,15 +6,8 @@ import Image from 'next/image'
 function About () {
     return (
         <Element id="about" name="about">
-            <section className="bg-white w-100">
-                <div className="w-100 h-25">
-                    <Image 
-                        src="/Eastern5.jpg"
-                        alt="eastern home"
-                        width={6000}
-                        height={100}
-                    />
-                </div>
+            <section className="bg-white w-100 pt-40">
+                
                 
                 <div className='px-10'>
                     <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-5 text-left '>Our Story</h3>
@@ -23,7 +16,7 @@ function About () {
                 </div>
                     
                 
-                <span className="text-md flex text-gray-600 text-center leading-8 px-10 pt-5 pb-10">
+                <span className="text-md flex text-black text-center leading-8 px-10 pt-5 pb-10">
                 ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
                 Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
                 </span>
