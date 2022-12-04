@@ -10,8 +10,8 @@ function Services () {
         <Element id="services" name="services">
             <div className='bg-white min-h-screen px-10 pt-20'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Services We Offer;</h3>
-          <div className='flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap'>
-            <div className=' hover:transition-transform  hover:scale-110 duration-500'>
+          <div className='flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/5 flex-1 hover:transition-transform  hover:scale-110 duration-500'>
               
                 <Image 
                     src="/project-manager-icon.png" alt="project management"
@@ -23,7 +23,7 @@ function Services () {
                 </span>
               
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/hook.png"
               width={'100'}
@@ -32,7 +32,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex '>Design & Build</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/blueprint.png"
               width={'100'}
@@ -41,7 +41,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Architecture</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/bridge.png"
               width={'100'}
@@ -50,7 +50,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Structural Engineering</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/electrical.png"
               width={'100'}
@@ -59,7 +59,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Electrical Engineering</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/pipes.png"
               width={'100'}
@@ -68,7 +68,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Plumbing Services</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image 
               src="/urban-planning.png"
               width={'100'}
@@ -77,7 +77,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Urban Planning</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/pressure.png"
               width={'100'}
@@ -86,7 +86,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Hydraulic Modelling</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image 
               src="/tower.png"
               width={'100'}
@@ -95,7 +95,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold flex'>Power Grid Substation Design</span>
             </div>
-            <div className=' hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
               <Image
               src="/treatment.png"
               width={'100'}
