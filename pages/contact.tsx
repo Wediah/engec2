@@ -14,8 +14,8 @@ import { Element } from 'react-scroll'
 function Contact () {
     return (
         <Element id="contact" name='contact'>
-            <section className="px-10 pt-40 bg-black">
-          <span className="font-bold text-5xl flex text-center text-white ">Lets Get Started With Your Dream Project Now.</span>
+            <section className="px-10 pt-40  w-full">
+          <span className="font-bold text-5xl flex text-center text-black ">Lets Get Started With Your Dream Project Now.</span>
 
           <div className=' pt-40 gap-10 md:flex md:flex-row '>
             <div className="bg-white rounded p-10 w-5/5 mb-8">
@@ -28,10 +28,10 @@ function Contact () {
                 <GoLocation className='text-xl text-black mr-1'/>No.41 Gye Nyame Street, Taifa Accra- Ghana <br />
                 <GrLocationPin className='text-xl text-black  mr-1'/>House No.4 Digital Address: GE-288-1184 <br />
                 <span className='text-3xl flex '>
-                <AiFillLinkedin className=" hover:text-orange-300" />
+                <a href="https://www.linkedin.com/in/engec-group-794298259"><AiFillLinkedin className=" hover:text-orange-300" /></a>
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:text-orange-300" /></a>
                 <a href='https://www.facebook.com/profile.php?id=100084279907473&mibextid=ZbWKwL'><AiFillFacebook className=" hover:text-orange-300"  /></a>
-                <AiFillTwitterSquare className=" hover:text-orange-300" />
+                <a href='https://twitter.com/engecgroup' ><AiFillTwitterSquare className=" hover:text-orange-300" /></a>
                 </span>
                 
               </span>
@@ -52,9 +52,7 @@ function Contact () {
               </span>
             </div>
 
-            <div >
-            <iframe className='w-5/5 rounded mb-6' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.341715655885!2d-0.24866048559828896!3d5.663625434133271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ec10dd738c5%3A0x5cb22c036d8f0df1!2sHouse%20No.4%2C%2041%20Gye%20Nyame%20St%2C%20Taifa!5e0!3m2!1sen!2sgh!4v1669625155949!5m2!1sen!2sgh" width="450" height="250"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+           
 
           </div>
           

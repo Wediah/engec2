@@ -19,14 +19,15 @@ function Projects () {
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 '>Projects</h3>
 
           
-          <Carousel >
-            <div className=" rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-10 '>
+          <div className="flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap px-10" >
+            <div className=" basis-1/3 flex-1">
+              <div className='wrounded-lg object-cover'>
                 <Image
                 src="/Eastern2.jpg"
                 alt="Home at Dobro"
-                width={800}
-                height={600}
+                width={'100'}
+                height={'100'}
+                layout="responsive"
                 />
               </div>
 
@@ -38,13 +39,14 @@ function Projects () {
               
 
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-10'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
                 <Image 
                 src="/Labone.jpg"
                 alt="Home at Labone"
-                width={500}
-                height={600}
+                width={'100'}
+                height={'100'}
+                layout="responsive"
                 />
               </div>
 
@@ -53,13 +55,14 @@ function Projects () {
               Scope: Design & Rendering.
               </span>
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-            <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+            <div className='rounded-lg object-cover'>
               <Image 
                 src="/soga.jpg"
                 alt="Home at Sogakope"
-                width={500}
-                height={600}
+                width={'100'}
+                height={'100'}
+                layout="responsive"
                 />
             </div>
               <span className="text-black flex leading-8 font-bold pt-10 ">
@@ -67,13 +70,14 @@ function Projects () {
               Scope: Design & Cost Estimation.
               </span>
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/bHills.jpg"
               alt="Home at Bortianor Hills"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
             
@@ -82,13 +86,14 @@ function Projects () {
               Scope: Design & Construction Supervision.
               </span>
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-5'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/Kwahu.jpg"
               alt="Home at Kwahu"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
             
@@ -97,13 +102,14 @@ function Projects () {
               Scope: Complete Architecture & Structural Design.
               </span>
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/Aburi2.jpg"
               alt="Home at Aburi"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
           
@@ -114,13 +120,14 @@ function Projects () {
               <Popup2 />
               
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/Afloa.jpg"
               alt="Home at Afloa"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
             
@@ -129,13 +136,14 @@ function Projects () {
               Scope: Architecture & Structural Design.
               </span>
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/LegonE.jpg"
               alt="Home at East Legon"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
             
@@ -144,13 +152,14 @@ function Projects () {
               Scope: Architectural and Structural Design
               </span>
             </div>
-            <div className="rounded shadow-2xl px-5 ">
-              <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/Dodowa3.jpg"
               alt="Home at Dodowa"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
             
@@ -162,13 +171,14 @@ function Projects () {
 
 
             </div>
-            <div className="rounded shadow-2xl px-5  ">
-              <div className='w-100 pt-20'>
+            <div className="basis-1/3 flex-1">
+              <div className='rounded-lg object-cover'>
               <Image 
               src="/Mampong4.jpg"
               alt="Home at Mampong"
-              width={500}
-              height={600}
+              width={'100'}
+              height={'100'}
+              layout="responsive"
               />
               </div>
             
@@ -178,7 +188,7 @@ function Projects () {
               </span> 
               <Popup4 />
             </div>
-          </Carousel>
+          </div>
         
         </section>
 
