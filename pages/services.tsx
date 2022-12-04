@@ -9,8 +9,8 @@ function Services () {
     return (
         <Element id="services" name="services">
             <div className='bg-white min-h-screen px-10 pt-20'>
-          <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10'>Services We Offer;</h3>
-          <div className='flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap'>
+          <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left '>Services We Offer;</h3>
+          <div className='flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap pt-5'>
             <div className='basis-1/5 flex-1 hover:transition-transform  hover:scale-110 duration-500'>
               
                 <Image 
