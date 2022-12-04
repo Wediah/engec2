@@ -15,7 +15,7 @@ import { SiGmail } from 'react-icons/si'
 function Contact () {
     return (
         <Element id="contact" name='contact'>
-        <div className="px-10 pt-40  w-full bg-black">
+        <div className="px-10 pt-40  bg-black">
 
           <span className="font-bold text-5xl flex text-center text-white">Lets Get Started With Your Dream Project Now.</span>
 
