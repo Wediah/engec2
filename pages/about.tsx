@@ -6,7 +6,7 @@ import Image from 'next/image'
 function About () {
     return (
         <Element id="about" name="about">
-            <div className="bg-white min-h-screen px-10 pt-40">
+            <div className="bg-white min-h-screen px-10 pt-80">
                 
                 
                 <div className=''>
@@ -16,7 +16,7 @@ function About () {
                 </div>
                     
                 
-                <span className="text-md flex font-bold text-black text-center leading-8 pt-5 pb-10">
+                <span className="text-md flex font-bold text-black text-center leading-8 pt-20 pb-10">
                 ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
                 Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
                 </span>

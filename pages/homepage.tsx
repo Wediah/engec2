@@ -4,12 +4,27 @@ import 'reactjs-popup/dist/index.css'
 import { Element } from "react-scroll"
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 import Legon from '../public/LegonE.jpg'
+import styles from '../styles.module.css'
 
 
 function Homepage () {
     return (
         <Element id="home" name="home">
             <div className="min-h-screen px-10 bg-black">
+
+            <div className='opacity-20' >
+            <Image
+                alt="Mountains"
+                src={Legon}
+                placeholder="blur"
+                quality={100}
+                fill
+                sizes="100vw"
+                style={{
+                objectFit: 'cover',
+                }}
+            />
+            </div>
 
                 <div className='text-left  pt-80'>
                     <h1 className='flex text-6xl text-bold text-white'>ENGEC</h1>
