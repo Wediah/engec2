@@ -45,7 +45,7 @@ function Contact () {
                     
             
         </div>
-        <div className='px-10 bh-white pb-2'>
+        <div className='px-10 bh-white mb-2'>
           <span className="text-black text-sm">COPYRIGHT © 2022  ENGEC ALL RIGHTS RESERVED</span>
           <a  className="text-black text-sm float-right flex  " href="https://myportfolio-beta-rouge.vercel.app/">Made with <AiFillHeart className='text-xl text-red-700'/> by Emmanuel wediah</a> 
         </div>
