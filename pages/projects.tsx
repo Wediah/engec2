@@ -57,7 +57,7 @@ function Projects () {
               Scope: Design & Rendering.
               </span>
             </div>
-            <div className="basis-1/3 flex-1">
+            {/*<div className="basis-1/3 flex-1">
             <div className='rounded-3xl object-cover'>
               <Image 
                 src="/soga.jpg"
@@ -72,7 +72,7 @@ function Projects () {
               Proposed 4 Story Mission House Apartments at Sogakope. <br />
               Scope: Design & Cost Estimation.
               </span>
-            </div>
+            </div>*/}
             <div className="basis-1/3 flex-1">
               <div className='rounded-3xl object-cover'>
               <Image 
