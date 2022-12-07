@@ -21,7 +21,7 @@ function Projects () {
           
           <div className="flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap px-10" >
             <div className=" basis-1/3 flex-1">
-              <div className='wrounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
                 <Image
                 src="/Eastern2.jpg"
                 alt="Home at Dobro"
@@ -40,7 +40,7 @@ function Projects () {
 
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
                 <Image 
                 src="/Labone.jpg"
                 alt="Home at Labone"
@@ -56,7 +56,7 @@ function Projects () {
               </span>
             </div>
             <div className="basis-1/3 flex-1">
-            <div className='rounded-lg object-cover'>
+            <div className='rounded-3xl object-cover'>
               <Image 
                 src="/soga.jpg"
                 alt="Home at Sogakope"
@@ -71,7 +71,7 @@ function Projects () {
               </span>
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/bHills.jpg"
               alt="Home at Bortianor Hills"
@@ -87,7 +87,7 @@ function Projects () {
               </span>
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/Kwahu.jpg"
               alt="Home at Kwahu"
@@ -103,7 +103,7 @@ function Projects () {
               </span>
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/Aburi2.jpg"
               alt="Home at Aburi"
@@ -121,7 +121,7 @@ function Projects () {
               
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/Afloa.jpg"
               alt="Home at Afloa"
@@ -137,7 +137,7 @@ function Projects () {
               </span>
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/LegonE.jpg"
               alt="Home at East Legon"
@@ -153,7 +153,7 @@ function Projects () {
               </span>
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/Dodowa3.jpg"
               alt="Home at Dodowa"
@@ -172,7 +172,7 @@ function Projects () {
 
             </div>
             <div className="basis-1/3 flex-1">
-              <div className='rounded-lg object-cover'>
+              <div className='rounded-3xl object-cover'>
               <Image 
               src="/Mampong4.jpg"
               alt="Home at Mampong"
