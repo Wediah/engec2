@@ -11,98 +11,109 @@ function Services () {
             <div className='bg-white min-h-screen px-10 pt-20'>
           <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left '>Services We Offer;</h3>
           <div className='flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap pt-5'>
-            <div className='basis-1/5 flex-1 hover:transition-transform  hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               
                 <Image 
-                    src="/project-manager-icon.png" alt="project management"
+                    src="/project-manager-icon.png"
                     width={"100"}
                     height={'100'}
+                    alt=""
+                    className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
                 />
-               <span className='text-sm font-bold flex text-orange-500'>
+               <span className='text-sm font-bold text-orange-500'>
                  Project Management
                 </span>
               
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/hook.png"
               width={'100'}
               height={'100'}
               alt="Building"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex '>Design & Build</span>
+              <span className='text-sm text-orange-500 font-bold '>Design & Build</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/blueprint.png"
               width={'100'}
               height={'100'}
               alt="plan"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Architecture</span>
+              <span className='text-sm text-orange-500 font-bold'>Architecture</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/bridge.png"
               width={'100'}
               height={'100'}
               alt="bridge"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Structural Engineering</span>
+              <span className='text-sm text-orange-500 font-bold'>Structural Engineering</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/electrical.png"
               width={'100'}
               height={'100'}
               alt="electrical"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Electrical Engineering</span>
+              <span className='text-sm text-orange-500 font-bold'>Electrical Engineering</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/pipes.png"
               width={'100'}
               height={'100'}
               alt="plumbing"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Plumbing Services</span>
+              <span className='text-sm text-orange-500 font-bold'>Plumbing Services</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image 
               src="/urban-planning.png"
               width={'100'}
               height={'100'}
               alt="planning"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Urban Planning</span>
+              <span className='text-sm text-orange-500 font-bold'>Urban Planning</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/pressure.png"
               width={'100'}
               height={'100'}
               alt="pressure"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Hydraulic Modelling</span>
+              <span className='text-sm text-orange-500 font-bold'>Hydraulic Modelling</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image 
               src="/tower.png"
               width={'100'}
               height={'100'}
               alt="power"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Power Grid Substation Design</span>
+              <span className='text-sm text-orange-500 font-bold'>Power Grid Substation Design</span>
             </div>
-            <div className='basis-1/5 flex-1 hover:transition-transform hover:scale-110 duration-500'>
+            <div className='basis-1/5 text-center '>
               <Image
               src="/treatment.png"
               width={'100'}
               height={'100'}
               alt="water treatment plant"
+              className="mx-auto hover:transition hover:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold flex'>Water Treatment Plant Design</span>
+              <span className='text-sm text-orange-500 font-bold'>Water Treatment Plant Design</span>
             </div>
           </div>
           <span className='text-md text-gray-800 flex pt-8 text-center px-10 font-bold leading-8'>

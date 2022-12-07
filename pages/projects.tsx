@@ -28,6 +28,7 @@ function Projects () {
                 width={'100'}
                 height={'100'}
                 layout="responsive"
+                className='rounded-2xl'
                 />
               </div>
 
@@ -47,6 +48,7 @@ function Projects () {
                 width={'100'}
                 height={'100'}
                 layout="responsive"
+                className='rounded-2xl'
                 />
               </div>
 
@@ -63,6 +65,7 @@ function Projects () {
                 width={'100'}
                 height={'100'}
                 layout="responsive"
+                className='rounded-2xl'
                 />
             </div>
               <span className="text-black flex leading-8 font-bold pt-10 ">
@@ -78,6 +81,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
             
@@ -94,6 +98,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
             
@@ -110,6 +115,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
           
@@ -128,6 +134,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
             
@@ -144,6 +151,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
             
@@ -160,6 +168,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
             
@@ -179,6 +188,7 @@ function Projects () {
               width={'100'}
               height={'100'}
               layout="responsive"
+              className='rounded-2xl'
               />
               </div>
             
