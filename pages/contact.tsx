@@ -26,7 +26,7 @@ function Contact () {
               
                 <div className='flex pt-3 gap-2'><BsFillTelephoneFill className='text-xl text-white mr-1'/>0555071746, 0503456240, 
                 0265918210, 0543387574</div><br/>
-                <div className='flex'><AiOutlineMail className='text-xl text-white mr-1'/>groupengec@gmail.com</div><br/>
+                <div className='flex'><AiOutlineMail className='text-xl text-white mr-1'/>info@engecgroup.xyz</div><br/>
                 <div className='flex'><GoLocation className='text-xl text-white mr-1'/>No.41 Gye Nyame Street, Taifa Accra- Ghana</div> 
                 <div className='flex'><GrLocationPin className='text-xl text-white  mr-1'/>House No.4 Digital Address: GE-288-1184</div> <br />
                 <span className='text-4xl flex justify-center'>
@@ -34,7 +34,7 @@ function Contact () {
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://www.facebook.com/profile.php?id=100084279907473&mibextid=ZbWKwL'><AiFillFacebook className=" hover:transition hover:-translate-y-2 duration-300 delay-150"  /></a>
                 <a href='https://twitter.com/engecgroup' ><AiFillTwitterSquare className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
-                <a href="mailto:groupengec@gmail.com"><SiGmail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                <a href="mailto:info@engecgroup.xyz"><SiGmail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                 </span>
                 
               </div>
