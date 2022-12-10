@@ -14,15 +14,25 @@ function Navbar () {
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
-							<div className="flex justify-center items-center flex-shrink-0 ">
-                                <Image 
-                                src="/Layer 23.png" alt="Logo" width={50} height={50}
-                                />
-								<h1 className=" font-bold text-xl cursor-pointer ml-1">
-									<span className="text-black">EN</span>
-                                    <span className="text-orange-500">GEC</span>
-								</h1>
-							</div>
+							<Link
+								activeClass="Home"
+								to="home"
+								smooth={true}
+								offset={50}
+								duration={500}
+								className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:bg-orange-600 rounded-md hover:text-white"
+							>
+								<div className="flex justify-center items-center flex-shrink-0 ">
+									<Image 
+										src="/Layer 23.png" alt="Logo" width={50} height={50}
+									/>
+									<h1 className=" font-bold text-xl cursor-pointer ml-1">
+										<span className="text-black">EN</span>
+										<span className="text-orange-500">GEC</span>
+									</h1>
+							    </div>
+							</Link>
+							
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 									<Link
