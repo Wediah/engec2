@@ -10,7 +10,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
 import { AiFillTwitterSquare } from 'react-icons/ai'
 import { Element } from 'react-scroll'
-import { SiGmail } from 'react-icons/si'
+
 
 function Contact () {
     return (
@@ -34,7 +34,7 @@ function Contact () {
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://www.facebook.com/profile.php?id=100084279907473&mibextid=ZbWKwL'><AiFillFacebook className=" hover:transition hover:-translate-y-2 duration-300 delay-150"  /></a>
                 <a href='https://twitter.com/engecgroup' ><AiFillTwitterSquare className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
-                <a href="mailto:info@engecgroup.xyz"><SiGmail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                <a href="mailto:info@engecgroup.xyz"><AiOutlineMail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                 </span>
                 
               </div>
