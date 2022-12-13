@@ -16,7 +16,7 @@ function Projects () {
     return (
         <Element id="projects" name="projects">
         <section className='bg-white w-100 pt-20'>
-          <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 '>Projects</h3>
+          <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 font-serif'>Projects</h3>
 
           
           <div className="flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap px-10" >

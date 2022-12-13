@@ -10,7 +10,7 @@ function Navbar () {
     const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
-			<nav className=" shadow-sm fixed w-full z-10 bg-white">
+			<nav className=" shadow-sm fixed w-full z-10 bg-white font-serif">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">

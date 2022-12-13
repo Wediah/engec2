@@ -17,7 +17,7 @@ function Contact () {
         <Element id="contact" name='contact'>
         <div className="px-10 pt-40  bg-black">
 
-          <span className="font-bold text-5xl flex text-center text-white">Lets Get Started With Your Dream Project Now.</span>
+          <span className="font-bold text-5xl flex text-center text-white font-serif">Lets Get Started With Your Dream Project Now.</span>
 
           
             <div className=" rounded pt-10 mb-8 p-10">
