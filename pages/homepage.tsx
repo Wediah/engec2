@@ -23,6 +23,7 @@ function Homepage () {
                     <Image className='brightness-50 w-screen bg-cover flex'
                     src={Legon}
                     alt="Mountains with snow"
+                    
                     layout="fill"
                     objectFit='cover'
                     />
