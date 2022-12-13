@@ -29,8 +29,8 @@ function Homepage () {
                 </div>
 
                 <div className='text-left  pt-80  px-10'>
-                    <h1 className='flex text-7xl font-bold text-white'>ENGEC</h1>
-                    <h4 className='flex text-md text-gray-200 pb-2 font-medium'>DESIGN - CONSULTANCY - CONSTRUCTION - PROJECT MANAGEMENT.</h4>
+                    <h1 className='flex text-7xl font-bold text-white font-serif'>ENGEC</h1>
+                    <h4 className='flex text-md text-gray-200 pb-2 font-medium font-serif'>DESIGN - CONSULTANCY - CONSTRUCTION - PROJECT MANAGEMENT.</h4>
                     
                 </div>
                 <Image className='mx-auto pt-20 lg:pt-36 animate-bounce'
