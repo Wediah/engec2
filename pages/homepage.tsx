@@ -34,11 +34,6 @@ function Homepage () {
                     <h4 className='flex text-md text-gray-200 pb-2 font-medium font-serif'>DESIGN - CONSULTANCY - CONSTRUCTION - PROJECT MANAGEMENT.</h4>
                     
                 </div>
-                <Image className='mx-auto pt-20 lg:pt-36 animate-bounce'
-                src={arrow}
-                alt=''
-                width={50}
-                />
             </div>
 
         </Element>
