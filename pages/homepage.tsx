@@ -20,7 +20,7 @@ function Homepage () {
                     width: "100vw",
                     height: "100vh"
                     }}>
-                    <Image className=''
+                    <Image className='brightness-50'
                     src={Legon}
                     alt="Mountains with snow"
                     layout="fill"
