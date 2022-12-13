@@ -6,7 +6,7 @@ import Image from 'next/image'
 function About () {
     return (
         <Element id="about" name="about">
-            <div className="bg-white min-h-screen px-10 pt-80 font-serif">
+            <div className="bg-white min-h-screen px-10 pt-60 font-serif">
                 
                 
                 <div className=''>
