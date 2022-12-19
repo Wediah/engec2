@@ -15,7 +15,7 @@ import { Element } from 'react-scroll'
 function Contact () {
     return (
         <Element id="contact" name='contact'>
-        <div className="px-10 pt-40  bg-black">
+        <div className="min-h-screen px-10 pt-40  bg-black">
 
           <span className="font-bold text-5xl flex text-center text-white font-serif">Lets Get Started With Your Dream Project Now.</span>
 

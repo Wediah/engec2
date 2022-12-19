@@ -1,17 +1,17 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import React from 'react'
 import 'reactjs-popup/dist/index.css'
 import { Element } from "react-scroll"
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 import Legon from '../public/LegonE.jpg'
-import styles from '../styles.module.css'
-import arrow from '../public/down-arrow.png'
+
+
 
 
 function Homepage () {
     return (
         <Element id="home" name="home">
-            <div className="min-h-screen w-auto">
+            <div className="min-h-screen">
 
                 
                 <div style={{
@@ -20,25 +20,22 @@ function Homepage () {
                     width: "100vw",
                     height: "100vh"
                     }}>
-                    <Image className='brightness-50 w-screen bg-cover flex'
+                    <Image 
+                    className='brightness-50'
                     src={Legon}
-                    alt="Mountains with snow"
-                    sizes='(max-width: 768px) 100vw'
-                    fill={true}
-                    style={{objectFit: "cover"}}
+                    alt=""
+                    layout="fill"
+                    objectFit='cover'
                 />
                 </div>
 
-                <div className='text-left  pt-80  px-10'>
+                <div className='text-left  pt-80  px-10 w-screen'>
                     <h1 className='flex text-7xl font-bold text-white font-serif'>ENGEC</h1>
                     <h4 className='flex text-md text-gray-200 pb-2 font-medium font-serif'>DESIGN - CONSULTANCY - CONSTRUCTION - PROJECT MANAGEMENT.</h4>
                     
                 </div>
-                <Image className='mx-auto pt-20 lg:pt-36 animate-bounce'
-                src={arrow}
-                alt=''
-                width={50}
-                />
+                <BsFillArrowDownCircleFill className='text-white text-3xl mx-auto mt-48 animate-bounce'/>
+                
             </div>
 
         </Element>

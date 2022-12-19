@@ -22,7 +22,7 @@ export default function Home() {
 
       </Head>
 
-      <main className='font-burtons'>
+      <main className='overflow-hidden'>
         <Navbar/>
         <Homepage/>
         <About/>
