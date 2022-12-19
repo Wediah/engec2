@@ -12,7 +12,7 @@ function About () {
                 <div className=''>
                     <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-5 text-left '>Our Story</h3>
                     <h1 className='text-sm text-bold  text-orange-400 pt-5 '>Vision.Build.Live</h1> <br />
-                    <h1 className='text-5xl text-bold text-orange-500'>SPECIALIZING IN THE UNTHINKABLE.</h1>
+                    <h1 className='text-3xl text-bold text-orange-500 flex'>SPECIALIZING IN THE UNTHINKABLE.</h1>
                 </div>
                     
                 
