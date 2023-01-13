@@ -13,12 +13,12 @@ function Homepage () {
     return (
         <Element id="home" name="home">
             <div className="min-h-screen bg-no-repeat  bg-cover bg-center bg-fixed bg-black  " style={{ backgroundImage: 'url(LegonE.jpg)'}}>
-                <div className="min-h-screen px-10 backdrop-brightness-50">
+                <div className="min-h-screen px-5 backdrop-brightness-50">
 
                 
                 
 
-                    <div className='text-left  pt-80   w-screen'>
+                    <div className='text-left  lg:pt-80 pt-52'>
                         <h1 className=' text-7xl lg:text-9xl font-bold text-white font-serif'>ENGEC</h1>
                         <h4 className='flex text-md text-gray-100 pb-2 font-medium font-serif'>DESIGN - CONSULTANCY - CONSTRUCTION - PROJECT MANAGEMENT.</h4>
                         
