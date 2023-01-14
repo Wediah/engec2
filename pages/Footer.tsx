@@ -1,0 +1,12 @@
+import React from 'react'
+
+function Footer() {
+  return (
+    <div className=' text-white text-center bg-black p-2'>
+          <span className=" text-sm">COPYRIGHT © 2022  ENGEC ALL RIGHTS RESERVED</span> <br/>
+          <a  className=" text-sm" href="https://myportfolio-beta-rouge.vercel.app/">Made by Emmanuel wediah</a> 
+    </div>
+  )
+}
+
+export default Footer

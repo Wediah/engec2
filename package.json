@@ -22,7 +22,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
-    "react-responsive-carousel": "^3.2.23",
+    "react-multi-carousel": "^2.8.2",
     "react-scroll": "^1.8.8",
     "reactjs-popup": "^2.0.5",
     "styled": "^1.0.0",

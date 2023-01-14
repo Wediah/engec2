@@ -41,7 +41,7 @@ function Navbar () {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-black font-semibold px-3 py-2 text-md hover:bg-orange-600 rounded-md hover:text-white"
+										className="cursor-pointer text-black font-medium px-3 py-2 text-md hover:bg-orange-600 rounded-md hover:text-white"
 									>
 										Home
 									</Link>
@@ -56,17 +56,6 @@ function Navbar () {
 										About
 									</Link>
 									<Link
-										activeClass="projects"
-										to="projects"
-										smooth={true}
-										offset={50}
-										duration={500}
-										className="cursor-pointer hover:bg-orange-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-									>
-										Projects
-									</Link>
-
-									<Link
 										activeClass="Services"
 										to="services"
 										smooth={true}
@@ -75,6 +64,17 @@ function Navbar () {
 										className="cursor-pointer hover:bg-orange-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										Services
+									</Link>
+
+									<Link
+										activeClass="projects"
+										to="projects"
+										smooth={true}
+										offset={50}
+										duration={500}
+										className="cursor-pointer hover:bg-orange-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+									>
+										Projects
 									</Link>
 
 									<Link

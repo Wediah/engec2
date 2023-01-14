@@ -7,6 +7,8 @@ import Services from './services'
 import Projects from './projects'
 import Contact from './contact'
 import About from './about'
+import Footer from './Footer'
+import Popup1 from './Popup1'
 
 
 
@@ -29,6 +31,7 @@ export default function Home() {
         <Services/>
         <Projects/>
         <Contact />
+        <Footer/>
       </main>
 
     </div>

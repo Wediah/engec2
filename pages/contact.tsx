@@ -15,40 +15,52 @@ import { Element } from 'react-scroll'
 function Contact () {
     return (
         <Element id="contact" name='contact'>
-        <div className="min-h-screen px-10 pt-40  bg-black">
 
-          <span className="font-bold text-5xl flex text-center text-white font-serif">Lets Get Started With Your Dream Project Now.</span>
-
+        <div  className=" bg-white ">
+          <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(Dodowa1.jpg)'}}>
+              <div className='lg:pt-48 pt-20 lg:pb-40 pb-20 lg:px-10 px-2 backdrop-brightness-50'>    
+                <div className="font-bold text-2xl lg:text-6xl text-center text-white font-serif">Lets Get Started <br/> With Your Dream Project Now!</div>
+              </div>
+          </div>
+        
           
-            <div className=" rounded pt-10 mb-8 p-10">
-              <span className="text-3xl fonthover:transition hover:-translate-y-2 duration-300 delay-150 ">Contact Us</span> <br />
-              <div className="text-white gap-5"> 
-              
-                <div className='flex pt-3 gap-2'><BsFillTelephoneFill className='text-xl text-white mr-1'/>0555071746, 0503456240, 
-                0265918210, 0543387574</div><br/>
-                <div className='flex'><AiOutlineMail className='text-xl text-white mr-1'/>info@engecgroup.xyz</div><br/>
-                <div className='flex'><GoLocation className='text-xl text-white mr-1'/>No.41 Gye Nyame Street, Taifa Accra- Ghana</div> 
-                <div className='flex'><GrLocationPin className='text-xl text-white  mr-1'/>House No.4 Digital Address: GE-288-1184</div> <br />
-                <span className='text-4xl flex justify-center'>
+
+            
+
+            
+            
+          <div className="text-white lg:flex"> 
+            <div className='bg-orange-500 p-5 lg:w-1/2'>
+              <h1 className='lg:text-4xl text-2xl font-bold'>Contact Us</h1>
+              <div className='flex pt-3 align-middle '><BsFillTelephoneFill className='text-xl text-white mr-2 '/>0555071746, 0503456240, <br /> 
+              0265918210, 0543387574</div><br/>
+              <div className='flex'><AiOutlineMail className='text-xl mr-2 '/>info@engecgroup.xyz</div><br/>
+              <div className='flex'><GoLocation className='text-xl mr-2'/>No.41 Gye Nyame Street, Taifa Accra- Ghana</div> 
+              <div className='flex'>House No.4 Digital Address: GE-288-1184</div> 
+            </div>
+            <div className='bg-orange-400 p-5 lg:w-1/2'>
+              <h1 className='lg:text-4xl text-2xl font-bold'>Pitch Us</h1>
+              <p className=' pt-3'>Do you want to start a new project? <br />
+              Do you want to make some renovations? <br />
+              We are always available and happy to hear from you!
+              </p>
+              <button className='bg-white p-2 text-black font-bold text-sm rounded-sm mt-5'>Send us a message </button>
+              <span className='text-4xl pt-2 flex justify-center text-white'>
                 <a href="https://www.linkedin.com/in/engec-group-794298259"><AiFillLinkedin className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://www.facebook.com/profile.php?id=100084279907473&mibextid=ZbWKwL'><AiFillFacebook className=" hover:transition hover:-translate-y-2 duration-300 delay-150"  /></a>
                 <a href='https://twitter.com/engecgroup' ><AiFillTwitterSquare className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href="mailto:info@engecgroup.xyz"><AiOutlineMail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
-                </span>
-                
-              </div>
+              </span>
             </div>
-
-          
-          
-                    
+            <div className='lg:w-1/2 bg-white '>
+              <iframe className='w-full lg:w-full h-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.3416125730996!2d-0.24866914958829445!3d5.663640434111919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ec10dd738c5%3A0x92e94feae4ee45a6!2s41%20Gye%20Nyame%20St%2C%20Taifa!5e0!3m2!1sen!2sgh!4v1673648825604!5m2!1sen!2sgh"    loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+              
             
         </div>
-        <div className='px-10 text-white mb-2'>
-          <span className=" text-sm text-center">COPYRIGHT © 2022  ENGEC ALL RIGHTS RESERVED</span>
-          <a  className=" text-sm float-right flex  " href="https://myportfolio-beta-rouge.vercel.app/">Made with <AiFillHeart className='text-xl text-red-700'/> by Emmanuel wediah</a> 
-        </div>
+        
         </Element>
     );
 }

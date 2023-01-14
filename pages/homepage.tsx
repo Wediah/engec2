@@ -31,7 +31,7 @@ function Homepage () {
                             <Link activeClass="contact" to="contact" smooth={true} offset={50} duration={500}><button className='text-lg bg-white p-2 rounded-lg font-semibold text-orange-500'>Get a Quote</button></Link>
                         </div>
                     </div>
-                    <BsFillArrowDownCircleFill className='text-white text-3xl mx-auto mt-48 animate-bounce'/>
+                    
 
                 </div>
             </div>
