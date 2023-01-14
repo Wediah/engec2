@@ -91,7 +91,7 @@ function Projects () {
             </span> <br />
             <button onClick={() => router.push('/Popup10')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          {/*<div className="mx-4 shadow-lg p-2 rounded-sm">
           
             <Image src="/soga.jpg" alt="Home at Sogakope" width={'80'} height={'80'} layout="responsive" className='rounded-sm'/>
           
@@ -100,7 +100,7 @@ function Projects () {
             Scope: Design & Cost Estimation.
             </span> <br />
             <button onClick={() => router.push('/Popup9')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
-          </div>
+    </div>*/}
           <div className="mx-4 shadow-lg p-2 rounded-sm">
             
             <Image 
