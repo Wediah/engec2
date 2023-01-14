@@ -93,7 +93,7 @@ function Projects () {
           </div>
           <div className="mx-4 shadow-lg p-2 rounded-sm">
           
-            <Image src="/soga.jpg" alt="Home at Sogakope" width={'100'} height={'100'} layout="responsive" className='rounded-sm'/>
+            <Image src="/soga.jpg" alt="Home at Sogakope" width={'80'} height={'80'} layout="responsive" className='rounded-sm'/>
           
             <span className="text-black font-semibold text-sm lg:text-md pt-1 ">
             Proposed Mission House at Sogakope. <br />
