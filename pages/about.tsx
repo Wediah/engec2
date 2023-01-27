@@ -7,6 +7,15 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function About () {
+
+    useEffect(()=>{
+        AOS.init({offset: 200,
+          duration: 600,
+          easing: 'ease-in-sine',
+          delay: 100,
+          once:true});
+      },[])
+      
     return (
         <Element id="about" name="about">
             <div className='min-h-screen'>
