@@ -3,6 +3,8 @@ import 'reactjs-popup/dist/index.css'
 import { Element } from 'react-scroll'
 import Image from 'next/image'
 import { Link } from "react-scroll"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function About () {
     return (
