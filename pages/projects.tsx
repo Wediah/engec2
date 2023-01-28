@@ -1,5 +1,5 @@
 import Image from 'next/legacy/image'
-import React, {Component} from 'react'
+import React, {Component, useEffect} from 'react'
 import ReactDom from 'react-dom'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -10,11 +10,19 @@ import Popup3 from './Popup3'
 import Popup4 from './Popup4'
 import { Element } from 'react-scroll'
 import { useRouter } from 'next/router'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Projects () {
   const router = useRouter()
   
+  useEffect(()=>{
+    AOS.init({offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      once:true});
+  },[])
   
   const Responsive =  {
     superLargeDesktop: {
@@ -41,7 +49,7 @@ function Projects () {
     return (
         <Element id="projects" name="projects">
         <div className='bg-white min-h-screen pt-20 px-10'>
-          <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 font-serif'>Projects</h3>
+          <h3 data-aos='fade-up' className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 font-serif'>Projects</h3>
 
           
         <Carousel 
@@ -63,7 +71,7 @@ function Projects () {
         renderDotsOutside={false}
         responsive={Responsive}
         removeArrowOnDeviceType={[ "mobile"]}>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             
             <Image
             src="/Eastern2.jpg" alt="Home at Dobro" width={'80'} height={'80'} layout="responsive" className='rounded-sm'
@@ -78,7 +86,7 @@ function Projects () {
             
 
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             
             <Image 
             src="/Labone.jpg" alt="Home at Labone" width={'100'} height={'100'} layout="responsive" className='rounded-sm'
@@ -101,7 +109,7 @@ function Projects () {
             </span> <br />
             <button onClick={() => router.push('/Popup9')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
     </div>*/}
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             
             <Image 
             src="/bHills.jpg"
@@ -119,7 +127,7 @@ function Projects () {
             </span> <br />
             <button onClick={() => router.push('/Popup8')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             
             <Image 
             src="/Kwahu.jpg"
@@ -137,7 +145,7 @@ function Projects () {
             </span> <br />
             <button onClick={() => router.push('/Popup7')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
             src="/Aburi2.jpg"
             alt="Home at Aburi"
@@ -154,7 +162,7 @@ function Projects () {
             <button onClick={() => router.push('/Popup2')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
             
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
             src="/Afloa.jpg"
             alt="Home at Afloa"
@@ -170,7 +178,7 @@ function Projects () {
             </span> <br />
             <button onClick={() => router.push('/Popup6')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
             src="/LegonE.jpg"
             alt="Home at East Legon"
@@ -186,7 +194,7 @@ function Projects () {
             </span> <br />
             <button onClick={() => router.push('/Popup5')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
             src="/Dodowa3.jpg"
             alt="Home at Dodowa"
@@ -204,7 +212,7 @@ function Projects () {
 
 
           </div>
-          <div className="mx-4 shadow-lg p-2 rounded-sm">
+          <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
             src="/Mampong4.jpg"
             alt="Home at Mampong"

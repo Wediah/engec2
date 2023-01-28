@@ -21,8 +21,8 @@ function About () {
             <div className='min-h-screen'>
             <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(Aburi1.jpg)'}}>
                 <div className='lg:pt-40 pt-20 lg:pb-40 pb-20 lg:px-10 px-2 backdrop-brightness-50'>    
-                    <h1  data-aos='fade-up' className='text-sm font-bold  text-orange-400 pt-5 '>Vision.Build.Live</h1> 
-                    <h1  data-aos='fade-up' className='lg:text-4xl text-2xl font-bold text-orange-500 '>SPECIALIZING IN THE UNTHINKABLE.</h1>
+                    <h1 className='text-sm font-bold  text-orange-400 pt-5 '>Vision.Build.Live</h1> 
+                    <h1  className='lg:text-4xl text-2xl font-bold text-orange-500 '>SPECIALIZING IN THE UNTHINKABLE.</h1>
                 </div>
             </div>
             <div className="bg-white  px-10  font-serif">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import 'reactjs-popup/dist/index.css'
 import { AiFillHeart, AiFillTwitterCircle } from 'react-icons/ai'
 import { BsFillTelephoneFill } from 'react-icons/bs'
@@ -10,9 +10,19 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
 import { AiFillTwitterSquare } from 'react-icons/ai'
 import { Element } from 'react-scroll'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Contact () {
+
+  useEffect(()=>{
+    AOS.init({offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      once:true});
+  },[])
+
     return (
         <Element id="contact" name='contact'>
 
