@@ -1,17 +1,26 @@
 import Image from 'next/image'
-import React from 'react'
+import React, {useEffect} from 'react'
 import 'reactjs-popup/dist/index.css'
 import { Element } from 'react-scroll'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 function Services () {
+  useEffect(()=>{
+    AOS.init({offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      once:true});
+  },[])
+
     return (
         <Element id="services" name="services">
             <div className='bg-white min-h-screen px-10 pt-20'>
-          <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left font-serif'>Services We Offer;</h3>
+          <h3 data-aos='fade-up' className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left font-serif'>Services We Offer;</h3>
           <div className='flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap pt-5'>
-            <div className='basis-1/5 text-center group/edit cursor-pointer '>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer '>
               
                 <Image 
                     src="/project-manager-icon.png"
@@ -25,7 +34,7 @@ function Services () {
                 </span>
               
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/hook.png"
               width={'100'}
@@ -35,7 +44,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold '>Design & Build</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/blueprint.png"
               width={'100'}
@@ -45,7 +54,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Architecture</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/bridge.png"
               width={'100'}
@@ -55,7 +64,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Structural Engineering</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/electrical.png"
               width={'100'}
@@ -65,7 +74,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Electrical Engineering</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/pipes.png"
               width={'100'}
@@ -75,7 +84,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Plumbing Services</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image 
               src="/urban-planning.png"
               width={'100'}
@@ -85,7 +94,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Urban Planning</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/pressure.png"
               width={'100'}
@@ -95,7 +104,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Hydraulic Modelling</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image 
               src="/tower.png"
               width={'100'}
@@ -105,7 +114,7 @@ function Services () {
               />
               <span className='text-sm text-orange-500 font-bold'>Power Grid Substation Design</span>
             </div>
-            <div className='basis-1/5 text-center group/edit cursor-pointer'>
+            <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
               src="/treatment.png"
               width={'100'}
@@ -116,7 +125,7 @@ function Services () {
               <span className='text-sm text-orange-500 font-bold'>Water Treatment Plant Design</span>
             </div>
           </div>
-          <span className='text-md text-gray-800 flex pt-8 text-center px-10 font-bold leading-8'>
+          <span data-aos='fade-up' className='text-md text-gray-800 flex pt-8 text-center px-10 font-bold leading-8'>
           And Real Estate Development, Civil Engineering Consultancy, Quantity Surveying, Project Cost Estimation, Project Audit, Project Planning, Filling/ Fuel Station Design, Swimming Pool Design & Construction, Ware Houses and Steel Buildings.
           </span>
         </div>
