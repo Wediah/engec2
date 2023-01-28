@@ -30,12 +30,12 @@ function About () {
                 
                 
                     
-                <h3 className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex text-left pt-20 '>Our Story</h3>
-                <span className="text-lg lg:text-2xl flex font-bold text-gray-600 text-left leading-8 pt-5 pb-10 font-sans">
+                <h3  data-aos='fade-up' className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex text-left pt-20 '>Our Story</h3>
+                <span  data-aos='fade-up' className="text-lg lg:text-2xl flex font-bold text-gray-600 text-left leading-8 pt-5 pb-10 font-sans">
                 ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
                 Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
                 </span>
-                <Link activeClass="projects" to="projects" smooth={true} offset={50} duration={500}><button className='text-lg bg-orange-500 p-2 rounded-sm font-semibold text-white'>view our portfolio</button></Link>
+                <Link activeClass="projects" to="projects" smooth={true} offset={50} duration={500}><button  data-aos='fade-up' className='text-lg bg-orange-500 p-2 rounded-sm font-semibold text-white'>view our portfolio</button></Link>
           
             
             </div>
