@@ -9,7 +9,7 @@ const Popup1= () => {
 
 
     return (
-        <div className='min-h-screen bg-white px-10 pt-5'>
+        <div className='min-h-screen bg-white px-10 pt-5 pb-4'>
             
 
             
@@ -25,7 +25,7 @@ const Popup1= () => {
                 <div ><Image alt="home1" src="/Eastern8.jpg" width={'500'} height={'500'}/></div>
             </div>
             <br />
-            <GrClose onClick={() => router.push('/')} className='text-2xl lg:text-6xl mx-auto hover:bg-gray-500 bg-white  cursor-pointer'/>
+            <GrClose onClick={() => router.push('/')} className='text-xl lg:text-4xl rounded-full p-1  mx-auto hover:bg-gray-500 bg-white  cursor-pointer'/>
                 
             
         </div>
