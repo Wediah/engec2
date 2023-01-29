@@ -42,11 +42,10 @@ function Contact () {
           <div className="text-white lg:flex"> 
             <div className='bg-orange-500 p-5 lg:w-1/2'>
               <h1 className='lg:text-4xl text-2xl font-bold'>Contact Us</h1>
-              <div className='flex pt-3 align-middle '><BsFillTelephoneFill className='text-xl text-white mr-2 '/>0555071746, 0503456240, <br /> 
+              <div className='flex pt-3 align-middle  items-center '><BsFillTelephoneFill className='text-xl text-white mr-2 '/>0555071746, 0503456240, <br /> 
               0265918210, 0543387574</div><br/>
-              <div className='flex'><AiOutlineMail className='text-xl mr-2 '/>groupengec@gmail.com</div><br/>
-              <div className='flex'><GoLocation className='text-xl mr-2'/>No.41 Gye Nyame Street, Taifa Accra- Ghana</div> 
-              <div className='flex'>House No.4 Digital Address: GE-288-1184</div> 
+              <div className='flex items-center '><AiOutlineMail className='text-xl justify-center mr-2 '/>groupengec@gmail.com</div><br/>
+              <div className='flex items-center'><GoLocation className='text-xl mr-2'/>No.41 Gye Nyame Street, Taifa Accra- Ghana <br /> House No.4 Digital Address: GE-288-1184</div> 
             </div>
             <div className='bg-orange-400 p-5 lg:w-1/2'>
               <h1 className='lg:text-4xl text-2xl font-bold'>Pitch Us</h1>
