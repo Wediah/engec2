@@ -42,8 +42,8 @@ function Contact () {
           <div className="text-white lg:flex"> 
             <div className='bg-orange-500 p-5 lg:w-1/2'>
               <h1 className='lg:text-4xl text-2xl font-bold'>Contact Us</h1>
-              <div className='flex pt-3 align-middle  items-center '><BsFillTelephoneFill className='text-xl text-white mr-2 '/>0555071746, 0503456240, <br /> 
-              0265918210, 0543387574 <br /> +233 50 676 0395</div><br/>
+              <div className='flex pt-3 align-middle  items-center '><BsFillTelephoneFill className='text-xl text-white mr-2 '/>+233 55 507 1746, +233 50 345 6240, <br /> 
+              +233 26 591 8210, +233 54 338 7574 <br /> +233 50 676 0395</div><br/>
               <div className='flex items-center '><AiOutlineMail className='text-xl justify-center mr-2 '/>groupengec@gmail.com</div><br/>
               <div className='flex items-center'><GoLocation className='text-xl mr-2'/>No.41 Gye Nyame Street, Taifa Accra- Ghana <br /> House No.4 Digital Address: GE-288-1184</div> 
             </div>
