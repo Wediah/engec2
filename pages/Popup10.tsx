@@ -19,7 +19,7 @@ const Popup10= () => {
                 
             </div>
             <br />
-            <GrClose onClick={() => router.push('/')} className='text-xl lg:text-4xl mx-auto hover:bg-gray-500 bg-white rounded-full p-1   cursor-pointer'/>
+            <GrClose onClick={() => router.push('/')} className='text-xl lg:text-4xl mx-auto hover:bg-gray-300 bg-white rounded-full p-1   cursor-pointer'/>
                 
             
         </div>

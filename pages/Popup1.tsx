@@ -25,7 +25,7 @@ const Popup1= () => {
                 <div ><Image alt="home1" src="/Eastern8.jpg" width={'500'} height={'500'}/></div>
             </div>
             <br />
-            <GrClose onClick={() => router.push('/')} className='text-xl lg:text-4xl rounded-full p-1  mx-auto hover:bg-gray-500 bg-white  cursor-pointer'/>
+            <GrClose onClick={() => router.push('/')} className='text-xl lg:text-4xl rounded-full p-1  mx-auto hover:bg-gray-300 bg-white  cursor-pointer'/>
                 
             
         </div>
