@@ -60,7 +60,7 @@ function Contact () {
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://www.facebook.com/profile.php?id=100084279907473&mibextid=ZbWKwL'><AiFillFacebook className=" hover:transition hover:-translate-y-2 duration-300 delay-150"  /></a>
                 <a href='https://twitter.com/engecgroup' ><AiFillTwitterSquare className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
-                <a href="mailto:info@engecgroup.xyz"><AiOutlineMail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                <a href="mailto:groupengec@gmail.com"><AiOutlineMail  className=" hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
               </span>
             </div>
             <div className='lg:w-1/2 bg-white '>
