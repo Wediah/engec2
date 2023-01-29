@@ -56,7 +56,7 @@ function Projects () {
         additionalTransfrom={0}
         arrows
         centerMode={false}
-        className="pb-20 pt-5"
+        className="pb-20 pt-5 "
         containerClass="container-with-dots"
         dotListClass=""
         draggable
