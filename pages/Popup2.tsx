@@ -11,7 +11,7 @@ const Popup2= () => {
 
 
     return (
-        <div className='min-h-screen bg-white px-10 pt-5'>
+        <div className='min-h-screen bg-white px-10 pb-4 pt-5'>
             
 
             
@@ -23,7 +23,7 @@ const Popup2= () => {
                
             </div>
             <br />
-            <GrClose onClick={() => router.push('/')} className='text-2xl lg:text-6xl mx-auto hover:bg-gray-500 bg-white  cursor-pointer'/>
+            <GrClose onClick={() => router.push('/')} className='text-xl lg:text-4xl mx-auto hover:bg-gray-500 rounded-full bg-white  cursor-pointer'/>
                 
             
         </div>
