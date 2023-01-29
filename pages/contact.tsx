@@ -44,7 +44,7 @@ function Contact () {
               <h1 className='lg:text-4xl text-2xl font-bold'>Contact Us</h1>
               <div className='flex pt-3 align-middle '><BsFillTelephoneFill className='text-xl text-white mr-2 '/>0555071746, 0503456240, <br /> 
               0265918210, 0543387574</div><br/>
-              <div className='flex'><AiOutlineMail className='text-xl mr-2 '/></div><br/>
+              <div className='flex'><AiOutlineMail className='text-xl mr-2 '/>groupengec@gmail.com</div><br/>
               <div className='flex'><GoLocation className='text-xl mr-2'/>No.41 Gye Nyame Street, Taifa Accra- Ghana</div> 
               <div className='flex'>House No.4 Digital Address: GE-288-1184</div> 
             </div>
@@ -54,7 +54,7 @@ function Contact () {
               Do you want to make some renovations? <br />
               We are always available and happy to hear from you!
               </p>
-              <button className='bg-white p-2 text-black font-bold text-sm rounded-sm mt-5'>Send us a message </button>
+              <a href="https://wa.me/+233555071746"><button className='bg-white p-2 text-black font-bold text-sm rounded-sm mt-5'>Send us a message </button></a>
               <span className='text-4xl pt-2 flex justify-center text-white'>
                 <a href="https://www.linkedin.com/in/engec-group-794298259"><AiFillLinkedin className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
