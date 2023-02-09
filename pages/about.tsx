@@ -35,7 +35,7 @@ function About () {
                 ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
                 Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
                 </span>
-                <Link activeClass="projects" to="projects" smooth={true} offset={50} duration={500}><button  data-aos='fade-up' className='text-lg bg-orange-500 p-2 rounded-sm font-semibold text-white'>view our portfolio</button></Link>
+                <Link activeClass="projects" to="projects" smooth={true} offset={50} duration={500}><button  data-aos='fade-up' className='text-lg bg-orange-500 p-2 rounded-lg font-semibold text-white'>view our portfolio</button></Link>
           
             
             </div>
