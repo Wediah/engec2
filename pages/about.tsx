@@ -18,7 +18,7 @@ function About () {
 
     return (
         <Element id="about" name="about">
-            <div className='min-h-screen'>
+            <div className='min-h-screen cursor-default'>
             <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(Aburi1.jpg)'}}>
                 <div className='lg:pt-40 pt-20 lg:pb-40 pb-20 lg:px-10 px-2 backdrop-brightness-50'>    
                     <h1 className='text-sm font-bold  text-orange-400 pt-5 '>Vision.Build.Live</h1> 
