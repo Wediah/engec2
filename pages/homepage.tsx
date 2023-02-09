@@ -12,7 +12,7 @@ import { Link } from "react-scroll"
 function Homepage () {
     return (
         <Element id="home" name="home">
-            <div className="min-h-screen bg-no-repeat  bg-cover bg-center bg-fixed bg-black  " style={{ backgroundImage: 'url(LegonE.jpg)'}}>
+            <div className="min-h-screen bg-no-repeat  bg-cover bg-center bg-fixed bg-black cursor-default " style={{ backgroundImage: 'url(LegonE.jpg)'}}>
                 <div className="min-h-screen px-5 backdrop-brightness-50">
 
                 
