@@ -26,7 +26,7 @@ function Contact () {
     return (
         <Element id="contact" name='contact'>
 
-        <div  className=" bg-white ">
+        <div  className=" bg-white cursor-default">
           <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(Dodowa1.jpg)'}}>
               <div className='lg:pt-48 pt-20 lg:pb-40 pb-20 lg:px-10 px-2 backdrop-brightness-50'>    
                 <div className="font-bold text-2xl lg:text-6xl text-center text-white font-serif">Lets Get Started <br/> With Your Dream Project Now!</div>
