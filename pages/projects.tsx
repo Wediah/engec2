@@ -48,7 +48,7 @@ function Projects () {
 
     return (
         <Element id="projects" name="projects">
-        <div className='bg-white min-h-screen pt-20 px-10'>
+        <div className='bg-white min-h-screen pt-20 px-10 cursor-default'>
           <h3 data-aos='fade-up' className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left px-10 font-serif'>Projects</h3>
 
           
