@@ -17,7 +17,7 @@ function Services () {
 
     return (
         <Element id="services" name="services">
-            <div className='bg-white min-h-screen px-10 pt-20'>
+            <div className='bg-white min-h-screen px-10 pt-20 cursor-default'>
           <h3 data-aos='fade-up' className='overline decoration-red-500 decoration-4 text-3xl text-black font-bold flex pt-20 text-left font-serif'>Services We Offer;</h3>
           <div className='flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap pt-5'>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer '>
