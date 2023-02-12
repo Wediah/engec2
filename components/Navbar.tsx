@@ -24,7 +24,7 @@ function Navbar () {
 							>
 								<div className="flex justify-center items-center flex-shrink-0 ">
 									<Image 
-										src="/Layer 23.png" alt="Logo" width={50} height={50}
+										src="/engeclogo.png" alt="Logo" width={50} height={50}
 									/>
 									<h1 className=" font-bold text-xl cursor-pointer ml-1">
 										<span className="text-black">EN</span>
