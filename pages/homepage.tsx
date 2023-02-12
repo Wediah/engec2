@@ -25,10 +25,10 @@ function Homepage () {
                     </div>
                     <div className='flex gap-4'>
                         <div>
-                            <Link activeClass="about" to="about" smooth={true} offset={50} duration={500}><button className='text-lg bg-orange-500 p-2 rounded-lg font-semibold text-white hover:scale-110 hover:-translate-y-1 duration-300'>More About Us</button></Link>
+                            <Link activeClass="about" to="about" smooth={true} offset={50} duration={500}><button className='text-lg bg-[#f6ab29] p-2 rounded-lg font-semibold text-white hover:scale-110 hover:-translate-y-1 duration-300'>More About Us</button></Link>
                         </div>
                         <div>
-                            <Link activeClass="contact" to="contact" smooth={true} offset={50} duration={500}><button className='text-lg bg-white p-2 rounded-lg font-semibold text-orange-500 hover:scale-110 hover:-translate-y-1 duration-300'>Get a Quote</button></Link>
+                            <Link activeClass="contact" to="contact" smooth={true} offset={50} duration={500}><button className='text-lg bg-white p-2 rounded-lg font-semibold text-[#f6ab29] hover:scale-110 hover:-translate-y-1 duration-300'>Get a Quote</button></Link>
                         </div>
                     </div>
                     

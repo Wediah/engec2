@@ -27,8 +27,8 @@ function Navbar () {
 										src="/engeclogo.png" alt="Logo" width={50} height={50}
 									/>
 									<h1 className=" font-bold text-xl cursor-pointer ml-1">
-										<span className="text-black">EN</span>
-										<span className="text-yellow-500">GEC</span>
+										<span className="text-[#1B3366]">EN</span>
+										<span className="text-[#f6ab29]">GEC</span>
 									</h1>
 							    </div>
 							</Link>
@@ -41,7 +41,7 @@ function Navbar () {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-black font-medium px-3 py-2 text-md hover:bg-orange-600 rounded-md hover:text-white"
+										className="cursor-pointer text-[#1B3366] font-bold px-3 py-2 text-sm hover:bg-[#f6ab29] rounded-md hover:text-white"
 									>
 										Home
 									</Link>
@@ -51,7 +51,7 @@ function Navbar () {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-orange-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
 									>
 										About
 									</Link>
@@ -61,7 +61,7 @@ function Navbar () {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-orange-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
 									>
 										Services
 									</Link>
@@ -72,7 +72,7 @@ function Navbar () {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:bg-orange-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white px-3 py-2 rounded-md text-sm font-bold"
 									>
 										Projects
 									</Link>
@@ -83,7 +83,7 @@ function Navbar () {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black"
+										className="cursor-pointer bg-[#f6ab29] text-white px-3 py-2 rounded-md text-sm font-bold hover:bg-[#1B3366]"
 									>
 										Contact
 									</Link>
@@ -94,7 +94,7 @@ function Navbar () {
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-								className="bg-orange-500 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-orange-500 focus:ring-white"
+								className="bg-[#f6ab29] inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-[#f6ab29] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#f6ab29] focus:ring-white"
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
@@ -159,7 +159,7 @@ function Navbar () {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-orange-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Home
 								</Link>
@@ -170,7 +170,7 @@ function Navbar () {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-orange-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									About
 								</Link>
@@ -182,7 +182,7 @@ function Navbar () {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-orange-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Projects
 								</Link>
@@ -193,7 +193,7 @@ function Navbar () {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-orange-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Services
 								</Link>
@@ -205,7 +205,7 @@ function Navbar () {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-orange-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-[#f6ab29] text-[#1B3366] hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
 									Contact
 								</Link>
