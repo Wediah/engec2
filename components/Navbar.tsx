@@ -28,7 +28,7 @@ function Navbar () {
 									/>
 									<h1 className=" font-bold text-xl cursor-pointer ml-1">
 										<span className="text-black">EN</span>
-										<span className="text-orange-500">GEC</span>
+										<span className="text-yellow-500">GEC</span>
 									</h1>
 							    </div>
 							</Link>
