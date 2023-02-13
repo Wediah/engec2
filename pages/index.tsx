@@ -20,7 +20,7 @@ export default function Home() {
         
         <title>E N G E C</title>
         <meta name="description" content="initail-scale=1.0, width=device-width" />
-        <link rel="icon" href="/Layer 23.png" />
+        <link rel="icon" href="/engeclogo.png" />
 
       </Head>
 
