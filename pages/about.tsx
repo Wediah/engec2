@@ -21,8 +21,8 @@ function About () {
             <div className='min-h-screen cursor-default'>
             <div className=" bg-no-repeat  bg-cover bg-center  bg-black  " style={{ backgroundImage: 'url(Aburi1.jpg)'}}>
                 <div className='lg:pt-40 pt-20 lg:pb-40 pb-20 lg:px-10 px-2 backdrop-brightness-50'>    
-                    <h1 className='text-sm font-bold  text-orange-400 pt-5 '>Vision.Build.Live</h1> 
-                    <h1  className='lg:text-4xl text-2xl font-bold text-orange-500 '>SPECIALIZING IN THE UNTHINKABLE.</h1>
+                    <h1 className='text-sm font-bold  text-[#f6ab29] pt-5 '>Vision.Build.Live</h1> 
+                    <h1  className='lg:text-4xl text-2xl font-bold text-[#ffa200] '>SPECIALIZING IN THE UNTHINKABLE.</h1>
                 </div>
             </div>
             <div className="bg-white  px-10  font-serif">
@@ -35,7 +35,7 @@ function About () {
                 ENGEC is a multidisciplinary Construction and Consulting Firm that Specializes in Architecture, Civil & Environmental Engineering and Construction. 
                 Since its inception as fully fledged company ENGEC as a group has designed and built many residential, commercial,industrial facilities across Ghana. 
                 </span>
-                <Link activeClass="projects" to="projects" smooth={true} offset={50} duration={500}><button  data-aos='fade-up' className='text-lg bg-orange-500 p-2 rounded-lg font-semibold text-white'>view our portfolio</button></Link>
+                <Link activeClass="projects" to="projects" smooth={true} offset={50} duration={500}><button  data-aos='fade-up' className='text-lg bg-[#f6ab29] p-2 rounded-lg font-semibold text-white'>view our portfolio</button></Link>
           
             
             </div>
