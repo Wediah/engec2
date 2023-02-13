@@ -82,7 +82,7 @@ function Projects () {
               5 Bedroom House at Dobro Eastern Region. <br />
               Scope: Design & Build 
             </span> <br />
-            <button onClick={() => router.push('/Popup1')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup1')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
             
 
           </div>
@@ -97,7 +97,7 @@ function Projects () {
             5 Story Apartments at Labone. <br />
             Scope: Design & Rendering.
             </span> <br />
-            <button onClick={() => router.push('/Popup10')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup10')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
           </div>
           {/*<div className="mx-4 shadow-lg p-2 rounded-sm">
           
@@ -125,7 +125,7 @@ function Projects () {
             2 Story Semi-Detached Apartments at Bortianor Hills. <br />
             Scope: Design & Construction Supervision.
             </span> <br />
-            <button onClick={() => router.push('/Popup8')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup8')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
           </div>
           <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             
@@ -143,7 +143,7 @@ function Projects () {
             Proposed 6 Bedroom House at Kwahu-Nkwatia. <br />
             Scope: Complete Architecture & Structural Design.
             </span> <br />
-            <button onClick={() => router.push('/Popup7')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup7')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
           </div>
           <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
@@ -159,7 +159,7 @@ function Projects () {
             Vacation Home at Aburi. <br />
             Scope: Design & Build
             </span> <br />
-            <button onClick={() => router.push('/Popup2')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup2')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
             
           </div>
           <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
@@ -176,7 +176,7 @@ function Projects () {
             Proposed Basic School Classroom Block at Afloa. <br />
             Scope: Architecture & Structural Design.
             </span> <br />
-            <button onClick={() => router.push('/Popup6')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup6')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
           </div>
           <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
@@ -192,7 +192,7 @@ function Projects () {
             4 Bedroom House at Ogbojo, East Legon. <br />
             Scope: Architectural and Structural Design
             </span> <br />
-            <button onClick={() => router.push('/Popup5')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup5')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
           </div>
           <div data-aos='zoom-in' className="mx-4 shadow-lg p-2 rounded-sm">
             <Image 
@@ -208,7 +208,7 @@ function Projects () {
             3 Bedroom House at Dodowa.<br />
             Scope: Design & Build.
             </span> <br />
-            <button onClick={() => router.push('/Popup3')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup3')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
 
 
           </div>
@@ -226,7 +226,7 @@ function Projects () {
             5 Bedroom House at Akuapem- Mampong. <br /> 
             Scope: Design.
             </span> <br />
-            <button onClick={() => router.push('/Popup4')} className='font-bold bg-orange-500 p-2 rounded-sm hover:text-white hover:bg-black'>view more </button>
+            <button onClick={() => router.push('/Popup4')} className='font-bold bg-[#f6ab29] p-2 rounded-sm hover:text-white hover:bg-[#1B3366]'>view more </button>
           </div>
             </Carousel>
         
