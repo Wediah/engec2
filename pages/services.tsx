@@ -29,7 +29,7 @@ function Services () {
                     alt=""
                     className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
                 />
-               <span className='text-sm font-bold text-orange-500'>
+               <span className='text-sm font-bold text-[#f6ab29]'>
                  Project Management
                 </span>
               
@@ -42,7 +42,7 @@ function Services () {
               alt="Building"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold '>Design & Build</span>
+              <span className='text-sm text-[#f6ab29] font-bold '>Design & Build</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
@@ -52,7 +52,7 @@ function Services () {
               alt="plan"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Architecture</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Architecture</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
@@ -62,7 +62,7 @@ function Services () {
               alt="bridge"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Structural Engineering</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Structural Engineering</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
@@ -72,7 +72,7 @@ function Services () {
               alt="electrical"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Electrical Engineering</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Electrical Engineering</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
@@ -82,7 +82,7 @@ function Services () {
               alt="plumbing"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Plumbing Services</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Plumbing Services</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image 
@@ -92,7 +92,7 @@ function Services () {
               alt="planning"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Urban Planning</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Urban Planning</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
@@ -102,7 +102,7 @@ function Services () {
               alt="pressure"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Hydraulic Modelling</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Hydraulic Modelling</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image 
@@ -112,7 +112,7 @@ function Services () {
               alt="power"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Power Grid Substation Design</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Power Grid Substation Design</span>
             </div>
             <div data-aos='fade-up' className='basis-1/5 text-center group/edit cursor-pointer'>
               <Image
@@ -122,7 +122,7 @@ function Services () {
               alt="water treatment plant"
               className="mx-auto hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150"
               />
-              <span className='text-sm text-orange-500 font-bold'>Water Treatment Plant Design</span>
+              <span className='text-sm text-[#f6ab29] font-bold'>Water Treatment Plant Design</span>
             </div>
           </div>
           <span data-aos='fade-up' className='text-md text-gray-800 flex pt-8 text-center px-10 font-bold leading-8'>
