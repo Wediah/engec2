@@ -53,7 +53,7 @@ function Contact () {
               Do you want to make some renovations? <br />
               We are always available and happy to hear from you!
               </p>
-              <a href="https://wa.me/+233555071746"><button className='bg-white p-2 text-black font-bold text-sm rounded-sm mt-5'>Send us a message </button></a>
+              <a href="https://wa.me/+233555071746"><button className='bg-white p-2 text-black font-bold text-sm rounded-lg mt-5'>Send us a message </button></a>
               <span className='text-4xl pt-2 flex justify-center text-white'>
                 <a href="https://www.linkedin.com/in/engec-group-794298259"><AiFillLinkedin className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
                 <a href='https://instagram.com/engec_group?igshid=ZDdkNTZiNTM='><AiFillInstagram className=" hover:transition hover:-translate-y-2 duration-300 delay-150" /></a>
